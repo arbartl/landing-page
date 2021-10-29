@@ -6,14 +6,18 @@
     display: flex;
 }
 
-#sign-up-button {
+#sign-up-button-1,
+#sign-up-button-2 {
     text-decoration: none;
     background-color: #3882F6;
-    padding: 5px 30px;
+    padding: 8px 40px;
     border-radius: 5px;
-    border: 1px solid white;
     color: white;
-    font-weight: 300;
+    font-weight: 800;
+}
+
+#sign-up-button-2 {
+    border: 1px solid white;
 }
 
 /* Header CSS */
@@ -22,7 +26,7 @@
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 10px 150px;
 }
 
 .logo {
@@ -43,7 +47,7 @@
     gap: 15px;
 }
 
-/* Content CSS */
+/* Hero CSS */
 
 .content-container {
     display: flex;
@@ -54,7 +58,7 @@
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 100px 100px;
+    padding: 100px 150px;
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -64,11 +68,14 @@
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+    margin: 0px;
 }
 
 .hero .description {
     color: #E5E7EB;
     font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 
 .image-flex {
@@ -77,4 +84,112 @@
 .hero-image {
     height: auto;
     max-width: 700px;
+}
+
+/* Main Content CSS */
+
+.content-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+    padding: 50px;
+}
+
+.content-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+}
+
+.content-image {
+    border-radius: 15px;
+}
+
+/* Quote Container CSS */
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 100px 100px;
+}
+
+.quote {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+
+#quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: justify;
+    font-weight: 300;
+}
+
+#quote-author {
+    font-size: 20px;
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+/* Call to Action CSS */
+
+.call-to-action-container {
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.call-to-action-wrapper {
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 50px 200px;
+    padding: 25px 100px;
+    justify-content: space-evenly;
+    gap: 25%;
+    display: flex;
+    align-content: center;
+}
+
+#call-to-action-title {
+    font-size: 20px;
+    font-weight: 800;
+    color:#E5E7EB;
+    margin-bottom: 0px;
+}
+
+#call-to-action-text {
+    font-size: 16px;
+    color: #E5E7EB;
+    margin-top: 0px;
+}
+
+.cta-button {
+    align-self: center;
+}
+
+/* Footer CSS */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
 }
